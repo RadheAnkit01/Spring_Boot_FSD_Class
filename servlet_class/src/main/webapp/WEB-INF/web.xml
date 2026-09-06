@@ -1,14 +1,36 @@
+<!--Web.xml is a deployment descriptor-->
+
 <!DOCTYPE web-app PUBLIC
  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
+  <!--Add endpoint Greet-->
   <servlet>
     <servlet-name>Radhe-Servlet</servlet-name>
     <servlet-class>org.example.Radhe</servlet-class>
   </servlet>
+
   <servlet-mapping>
     <servlet-name>Radhe-Servlet</servlet-name>
     <url-pattern>/greet</url-pattern>
   </servlet-mapping>
+
+  <!--Add endpoint Ankit-->
+  <servlet>
+    <servlet-name>Ankit-Servlet</servlet-name>
+    <servlet-class>org.example.Ankit</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Ankit-Servlet</servlet-name>
+    <url-pattern>/ankit</url-pattern>
+  </servlet-mapping>
+
+<!--  Configuration Error Page-->
+  <error-page>
+    <error-code>404</error-code>
+    <location>/404.html</location>
+  </error-page>
+
 </web-app>
