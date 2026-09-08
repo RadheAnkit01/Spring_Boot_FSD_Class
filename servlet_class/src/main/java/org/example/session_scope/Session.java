@@ -1,5 +1,6 @@
 package org.example.session_scope;
 
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -20,12 +21,16 @@ public class Session extends HttpServlet {
         HttpSession session = req.getSession();
         session.setAttribute("Id","161");
 
-        PrintWriter pr = resp.getWriter();
 
         String id = (String) session.getAttribute("Id");
+        ServletContext context = getServletContext();
+        String appKey = (String) context.getAttribute("appKey");
 
+        PrintWriter pr = resp.getWriter();
         pr.println("<p>What are you doing boyiii... this is session path\n we are learning how to store data in session</p>" +
-                "<h1>Some Data In Session : %s</h1>".formatted(id));
+                "<h1>Some Data In Session : %s</h1>".formatted(id) +
+                "<h1>Get Data From Application Scope/Level key name 'appKey' : %s</h1>".formatted(appKey)
+        );
 
     }
 }

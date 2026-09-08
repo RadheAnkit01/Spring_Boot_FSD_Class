@@ -2,9 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>404 NOT FOUND</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - 404</title>
+    <style>
+        /* Reset default browser spacing */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Center everything on the screen */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        /* Container for the error message content */
+        .error-container {
+            text-align: center;
+            max-width: 500px;
+        }
+
+        /* Big, bold 404 error text */
+        .error-code {
+            font-size: 8rem;
+            font-weight: 900;
+            color: #4f46e5; /* Modern purple/blue color */
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        /* Main error title */
+        .error-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #1f2937;
+        }
+
+        /* Helpful explanation message */
+        .error-message {
+            font-size: 1.1rem;
+            color: #4b5563;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        /* Navigation button back to safety */
+        .home-button {
+            display: inline-block;
+            background-color: #4f46e5;
+            color: #ffffff;
+            padding: 12px 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        /* Make the button interactive on hover */
+        .home-button:hover {
+            background-color: #4338ca;
+        }
+
+        .home-button:active {
+            transform: scale(0.98);
+        }
+    </style>
 </head>
 <body>
-    <h1>Resources Not Found</h1>
+
+<div class="error-container">
+    <div class="error-code">404</div>
+    <h1 class="error-title">Oops! Page Not Found</h1>
+    <p class="error-message">
+        We can't seem to find the page you are looking for. The link might be broken, or the page may have moved.
+    </p>
+    <!-- Change the href attribute to point to your actual homepage -->
+    <a href="/servlet_class/" class="home-button">Go Back Home</a>
+</div>
+
 </body>
 </html>
