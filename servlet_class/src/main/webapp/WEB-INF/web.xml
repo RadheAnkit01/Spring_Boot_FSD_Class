@@ -27,6 +27,22 @@
     <url-pattern>/ankit</url-pattern>
   </servlet-mapping>
 
+<!--  -->
+
+  <servlet>
+    <servlet-name>mycfg</servlet-name>
+    <servlet-class>org.example.servlet_config.MyServletConfig</servlet-class>
+    <init-param>
+      <param-name>PW</param-name>
+      <param-value>IOI</param-value>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>mycfg</servlet-name>
+    <url-pattern>/config</url-pattern>
+  </servlet-mapping>
+
 <!--  Configuration Error Page-->
   <error-page>
     <error-code>404</error-code>
