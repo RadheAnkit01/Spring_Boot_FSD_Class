@@ -16,10 +16,21 @@ public class Register extends HttpServlet {
         resp.setContentType("text/html");
         //getting parameter
         String name =  req.getParameter("name");
-        PrintWriter printWriter =  resp.getWriter();
-        printWriter.println("""
-                  <h1> Registered : %s </h1>
-                  """.formatted(name)
-        );
+        System.out.println("New user registered : " + name);
+
+        //If we do use println here then it will create double posting problems
+
+//        PrintWriter printWriter =  resp.getWriter();
+//
+//        //
+//        printWriter.println("""
+//                  <h1> Registered : %s </h1>
+//                  """.formatted(name)
+//        );
+
+
+
+        // We are avoiding double posting problem through redirect
+        resp.sendRedirect("success");
     }
 }
