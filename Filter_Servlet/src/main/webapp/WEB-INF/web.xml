@@ -1,0 +1,40 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <servlet>
+    <servlet-name>home</servlet-name>
+    <servlet-class>org.example.Home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>home</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+<!--  register auth filter-->
+  <filter>
+    <filter-name>authFilter</filter-name>
+    <filter-class>org.example.AuthFilter</filter-class>
+  </filter>
+
+<!-- register age filter -->
+  <filter>
+    <filter-name>ageFilter</filter-name>
+    <filter-class>org.example.AgeFilter</filter-class>
+  </filter>
+
+<!--  Real Filtering in order-->
+  <filter-mapping>
+    <filter-name>ageFilter</filter-name>
+    <url-pattern>/home</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>authFilter</filter-name>
+    <url-pattern>/home</url-pattern>
+  </filter-mapping>
+
+
+
+
+</web-app>
