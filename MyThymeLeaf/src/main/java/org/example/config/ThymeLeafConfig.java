@@ -12,7 +12,7 @@ public class ThymeLeafConfig {
         WebApplicationTemplateResolver resolver = new WebApplicationTemplateResolver(application);
 
         resolver.setTemplateMode("HTML");
-        resolver.setPrefix("/WEB-INF/templates/index.html");
+        resolver.setPrefix("/WEB-INF/templates/");
         resolver.setSuffix(".html");
         resolver.setCharacterEncoding("UTF-8");
 
