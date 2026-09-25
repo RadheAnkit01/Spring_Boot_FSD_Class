@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c607cfd1-2e31-4759-8b2b-77fd44440ddf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyThymeLeaf/src/main/java/org/example/web/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyThymeLeaf/src/main/java/org/example/modal/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyThymeLeaf/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyThymeLeaf/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyThymeLeaf/src/main/java/org/example/config/ThymeLeafConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyThymeLeaf/src/main/java/org/example/config/ThymeLeafConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyThymeLeaf/src/main/java/org/example/web/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyThymeLeaf/src/main/java/org/example/web/controllers/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyThymeLeaf/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MyThymeLeaf/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

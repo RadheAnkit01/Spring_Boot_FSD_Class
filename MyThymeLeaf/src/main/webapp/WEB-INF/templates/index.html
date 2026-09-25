@@ -6,6 +6,31 @@
 </head>
 <body>
     <h1>Variable Expression '${}' (th:text)</h1>
-    <h1 th:text="${msg1}"></h1>
+    <h1 th:text="${msg1}">Default Message</h1>
+
+    <h1>th:each example</h1>
+    <table border="1" cellpadding="10">
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Phone</th>
+        </thead>
+        <tbody>
+<!--            <tr>-->
+<!--                <td th:text="${id}">N/A</td>-->
+<!--                <td th:text="${name}">N/A</td>-->
+<!--                <td th:text="${city}">N/A</td>-->
+<!--                <td th:text="${phone}">N/A</td>-->
+<!--            </tr>-->
+<!--            <tr th:each="user : ${users}" th:object="${user}" th:if="${user.id != 3}">-->
+            <tr th:each="user : ${users}" th:object="${user}" th:unless="${user.id == 3}">
+                <td th:text="*{id}">N/A</td>
+                <td th:text="*{name}">N/A</td>
+                <td th:text="*{city}">N/A</td>
+                <td th:text="*{phone}">N/A</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
