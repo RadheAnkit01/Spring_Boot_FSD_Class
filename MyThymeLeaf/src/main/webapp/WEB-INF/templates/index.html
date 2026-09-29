@@ -32,5 +32,51 @@
             </tr>
         </tbody>
     </table>
+
+    <!--        Switch Case Using Thyme Leaf-->
+    <div th:switch="Ankit">
+        <div th:case="${user1.name}">
+            <p th:text="${user1.id}"></p>
+            <p th:text="${user1.name}"></p>
+            <p th:text="${user1.city}"></p>
+            <p th:text="${user1.phone}"></p>
+        </div>
+    </div>
+
+
+    <h2>Select Users whose city is Delhi</h2>
+
+    <table border="1" cellpadding="2">
+        <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Phone</th>
+        </thead>
+        <tbody th:each="user : ${users}">
+            <tr th:switch = "Delhi">
+                <div th:case="${user.city}">
+                    <td th:text="${user.id}"></td>
+                    <td th:text="${user.name}"></td>
+                    <td th:text="${user.city}"></td>
+                    <td th:text="${user.phone}"></td>
+                </div>
+
+<!--                Default Case-->
+                <div th:case="*">
+                    <td th:text="${user.id}"></td>
+                    <td th:text="${user.name}"></td>
+                    <td> n/a </td>
+                    <td th:text="${user.phone}"></td>
+                </div>
+
+
+            </tr>
+        </tbody>
+    </table>
+    <h1>Anchor Tag</h1>
+    <a href="/greet">Greet Link without thymeleaf</a><br><br>
+    <a th:href="@{/greet}">Greet Link with thymeleaf</a><br><br>
+
 </body>
 </html>

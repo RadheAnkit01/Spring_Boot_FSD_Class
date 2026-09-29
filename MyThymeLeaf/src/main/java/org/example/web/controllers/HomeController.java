@@ -43,7 +43,8 @@ public class HomeController extends HttpServlet {
         userList.add(new User(4,"Dristi", "Delhi", 9348734984L));
 
         webContext.setVariable("users", userList);
-
+        User user = new User(4,"Ankit", "Delhi", 9348734984L);
+        webContext.setVariable("user1", user);
         webContext.setVariable("msg1","This is message 1, which is set in webContext.setVariable");
         templateEngine.process("index",webContext,resp.getWriter());
     }
