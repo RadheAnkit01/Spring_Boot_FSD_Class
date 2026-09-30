@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Utility</title>
+</head>
+<body>
+  <h1 th:text="${message}">No Message</h1>
+  <h2>Getting Name and performing some operation in Utility String Object</h2>
+
+  <div>
+    <h3>UpperCase</h3>
+    <p th:text="${#strings.toUpperCase(name)}"></p>
+    <h3>LowerCase</h3>
+    <p th:text="${#strings.toLowerCase(name)}"></p>
+    <h3>Length</h3>
+    <p th:text="${#strings.length(name)}"></p>
+    <h3>Contains - 'c' </h3>
+    <p th:text="${#strings.contains(name,'c')}"></p>
+    <h3>Length of String of array</h3>
+    <p th:text="${names}"></p>
+    <p th:text="${#strings.length(names)}"></p>
+    <h3>List - For each Loop</h3>
+    <div th:each="name : ${nameList}">
+      <span th:text="${name}"></span><span>,  </span>
+    </div>
+    <h3>List - size</h3>
+      <p th:text="${#lists.size(nameList)}"></p>
+    <h3>List - isEmpty</h3>
+      <p th:text="${#lists.isEmpty(nameList)}"></p>
+    <h3>List - contains [Ankit]?</h3>
+      <p th:text="${#lists.contains(nameList,'Ankit')}"></p>
+
+    <h3>Number integer - set min 10 digit,(formatInteger(salary,10)) in --->  <span th:text="${salary}"></span></h3>
+    <p th:text="${#numbers.formatInteger(salary,10)}"></p>
+    <h3>Number double - set min 6 digit and 3 decimal digit,(formatDecimal( salary, 6, 'COMMA', 2, 'POINT' )), in --->  <span th:text="${salary}"></span></h3>
+    <p th:text="${#numbers.formatDecimal(salary,6,'COMMA',2,'POINT')}"></p>
+  </div>
+</body>
+</html>

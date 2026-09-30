@@ -78,5 +78,12 @@
     <a href="/greet">Greet Link without thymeleaf</a><br><br>
     <a th:href="@{/greet}">Greet Link with thymeleaf</a><br><br>
 
+    <form th:action="@{/add}">
+        <label>Num 1</label>
+        <input name="num1" type="number"><br><br>
+        <label>Num 2</label>
+        <input name="num2" type="number"><br><br>
+        <button type="submit">Add</button>
+    </form>
 </body>
 </html>

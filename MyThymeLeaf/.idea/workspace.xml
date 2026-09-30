@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b90fdd1-815e-4cf5-8da9-82ca712e1e54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/GreetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Filter_Servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Filter_Servlet/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/AddController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/UtilityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/utility.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
