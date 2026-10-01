@@ -15,5 +15,7 @@ public class AddController extends HttpServlet {
         int num1 = Integer.parseInt(req.getParameter("num1"));
         int num2 = Integer.parseInt(req.getParameter("num2"));
 
+        resp.setContentType("text/html");
+        resp.getWriter().println("Sum of %s and %s is %s".formatted(num1,num2,num1+num2));
     }
 }

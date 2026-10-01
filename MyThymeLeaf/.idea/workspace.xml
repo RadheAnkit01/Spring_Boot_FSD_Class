@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b90fdd1-815e-4cf5-8da9-82ca712e1e54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/AddController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/UtilityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/utility.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/UtilityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/web/controllers/UtilityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/utility.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/utility.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

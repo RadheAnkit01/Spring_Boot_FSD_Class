@@ -36,5 +36,15 @@
     <h3>Number double - set min 6 digit and 3 decimal digit,(formatDecimal( salary, 6, 'COMMA', 2, 'POINT' )), in --->  <span th:text="${salary}"></span></h3>
     <p th:text="${#numbers.formatDecimal(salary,6,'COMMA',2,'POINT')}"></p>
   </div>
+
+  <div>
+    <h2>Date & Time Operations</h2>
+    <p th:text="${#temporals.format(currentTime, 'HH:mm:ss a')}"></p>
+    <p th:text="${#temporals.format(currentDate, 'dd / MMM / YYYY / qqqq')}"></p>
+    <p th:text="${#temporals.format(currentDateTime, 'hh:mm:ss a  |  dd / MM / YYYY ')}"></p>
+
+  </div>
+
+  <br><br><br>
 </body>
 </html>

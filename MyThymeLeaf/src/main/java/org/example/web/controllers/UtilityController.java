@@ -14,6 +14,9 @@ import org.thymeleaf.web.servlet.JakartaServletWebApplication;
 
 import java.io.IOException;
 import java.lang.reflect.Array;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.Arrays;
 import java.util.List;
 
@@ -46,6 +49,12 @@ public class UtilityController extends HttpServlet {
         //Number
         double salary = 19879.1020;
         context.setVariable("salary",salary);
+
+
+        //Time & Date
+        context.setVariable("currentTime", LocalTime.now());
+        context.setVariable("currentDate", LocalDate.now());
+        context.setVariable("currentDateTime", LocalDateTime.now());
 
         templateEngine.process("utility", context, resp.getWriter());
 
