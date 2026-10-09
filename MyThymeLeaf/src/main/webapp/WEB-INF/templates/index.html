@@ -77,6 +77,8 @@
     <h1>Anchor Tag</h1>
     <a href="/greet">Greet Link without thymeleaf</a><br><br>
     <a th:href="@{/greet}">Greet Link with thymeleaf</a><br><br>
+    <a th:href="@{/greet(name=${user1.name})}">Greet Link with query string using thymeleaf</a><br><br>
+    <a th:href="@{/greet/{name}(name=${user1.name})}">Greet Link with dynamic path name using thymeleaf</a><br><br>
 
     <form th:action="@{/add}">
         <label>Num 1</label>
