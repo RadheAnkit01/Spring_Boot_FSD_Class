@@ -9,7 +9,8 @@ public class HibernateUtil {
 
     public  static  SessionFactory getSessionFactory(){
         if(sessionFactory==null){
-            return new Configuration().configure().buildSessionFactory();
+            sessionFactory = new Configuration().configure().buildSessionFactory();
+            return sessionFactory;
         }
         return sessionFactory;
     }
