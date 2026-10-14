@@ -60,17 +60,18 @@ public class EmployeeDao {
     }
 
     public void update(Employee employee){
-        try (Session session = HibernateUtil.getSessionFactory().openSession()){
+        try(Session session = HibernateUtil.getSessionFactory().openSession()){
             Transaction tx = session.beginTransaction();
             try{
-                Employee employee = session.find(Employee.class,id);
-                if(employee == null) return;
-                session.remove(employee);
+                if (employee == null) return;
+                session.merge(employee);
                 tx.commit();
-            } catch (RuntimeException e) {
-                tx.commit();
-                throw new RuntimeException(e);
+            } catch(Exception e){
+                tx.rollback();
+                throw e;
             }
+        } catch(RuntimeException e){
+            throw e;
         }
     }
 }
