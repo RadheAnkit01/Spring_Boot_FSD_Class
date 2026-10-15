@@ -2,6 +2,8 @@ package org.example.config;
 
 import jakarta.servlet.ServletContextEvent;
 import jakarta.servlet.ServletContextListener;
+import jakarta.servlet.annotation.WebListener;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.example.utility.HibernateUtil;
@@ -13,7 +15,7 @@ import org.thymeleaf.web.servlet.JakartaServletWebApplication;
 
 import java.util.Map;
 
-
+@WebListener
 public class ThymeleafConfig implements ServletContextListener {
     private static TemplateEngine templateEngine;
     private static JakartaServletWebApplication application;
@@ -22,7 +24,7 @@ public class ThymeleafConfig implements ServletContextListener {
         application = JakartaServletWebApplication.buildApplication(sce.getServletContext());
         WebApplicationTemplateResolver resolver = new WebApplicationTemplateResolver(application);
         resolver.setSuffix(".html");
-        resolver.setPrefix("/WEB_INF/templates");
+        resolver.setPrefix("/WEB-INF/templates/");
         resolver.setCharacterEncoding("UTF-8");
 
         templateEngine = new TemplateEngine();

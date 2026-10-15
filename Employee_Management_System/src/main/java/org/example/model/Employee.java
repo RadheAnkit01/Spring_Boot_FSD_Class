@@ -14,7 +14,7 @@ public class Employee {
     private String email;
     @Column(name = "department", length = 50)
     private String department;
-    @Column(name = "salary", precision = 10, scale = 2)
+    @Column(name = "salary")
     private double salary;
     @Column(name = "phone_number", length = 15)
     private String phone_number;
