@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            max-width: 450px;
+            margin: 20px auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin: 14px 0 6px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 22px;
+        }
+
+        button,
+        .cancel-btn {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .add-btn {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .add-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .cancel-btn {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        .cancel-btn:hover {
+            background-color: #545b62;
+        }
+    </style>
+</head>
+
+<body>
+<h2>Add Employee</h2>
+
+<form method="post" th:action="@{/employee/save}">
+    <label for="name">Name</label>
+    <input id="name" type="text" name="name" required>
+
+    <label for="branch">Branch</label>
+    <input id="branch" type="text" name="branch" required>
+
+    <label for="salary">Salary</label>
+    <input id="salary" type="number" name="salary" min="0" step="0.01" required>
+
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" required>
+
+    <label for="phone">Phone Number</label>
+    <input id="phone" type="tel" name="phone" required>
+
+    <div class="buttons">
+        <button class="add-btn" type="submit">Add Employee</button>
+        <a class="cancel-btn" th:href="@{/employee}">Cancel</a>
+    </div>
+</form>
+</body>
+</html>
