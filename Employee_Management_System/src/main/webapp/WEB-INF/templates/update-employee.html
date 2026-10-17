@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Employee</title>
+</head>
+<body>
+  <form method="post" th:action="@{/employees/modify}" th:object="${employee}">
+    <input type="hidden" id="id" name="id" th:value="*{id}" required>
+    <label for="name">Name</label>
+    <input id="name" type="text" name="name" th:value="*{name}" required>
+    <br>
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" th:value="*{email}" required>
+    <br>
+    <label for="branch">Branch</label>
+    <input id="branch" type="text" name="branch" th:value="*{department}" required>
+    <br>
+    <label for="salary">Name</label>
+    <input id="salary" type="number" name="salary" th:value="*{salary}" required>
+    <br>
+    <label for="phone">Name</label>
+    <input id="phone" type="text" name="phone" th:value="*{phone_number}" required>
+    <br>
+    <button type="submit">Update</button>
+    <button><a th:href="@{/employees}">Cancel</a></button>
+  </form>
+</body>
+</html>
