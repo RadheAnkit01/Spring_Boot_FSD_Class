@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Management System</title>
+
+</head>
+<body>
+
+<h1>Student Management System</h1>
+<p>Welcome to the Student Management System.</p>
+
+<h2>Modules</h2>
+
+<ul>
+  <p><a href="/Course_Enrollment_Management_System/department">Go to Department</a></p>
+  <p><a th:href="@{/students}">Go to Students</a></p>
+  <p><a href="/Course_Enrollment_Management_System/course">Go to Course</a></p>
+  <p><a href="/Course_Enrollment_Management_System/enrollment">Go to Student Course Enrollment</a></p>
+</ul>
+
+</body>
+</html>

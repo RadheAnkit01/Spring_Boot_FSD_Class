@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Club</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      max-width: 450px;
+      margin: 20px auto;
+      padding: 25px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin: 14px 0 6px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 90px;
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border-color: #007bff;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    button,
+    .cancel-btn {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .add-btn {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .add-btn:hover {
+      background-color: #0056b3;
+    }
+
+    .cancel-btn {
+      background-color: #6c757d;
+      color: white;
+    }
+
+    .cancel-btn:hover {
+      background-color: #545b62;
+    }
+  </style>
+</head>
+
+<body>
+
+<h2>Add Club</h2>
+
+<form method="post" th:action="@{/club/save}">
+
+  <label for="name">Club Name</label>
+  <input
+          id="name"
+          type="text"
+          name="name"
+          maxlength="100"
+          required>
+
+  <label for="category">Category</label>
+  <input
+          id="category"
+          type="text"
+          name="category"
+          maxlength="100"
+          required>
+
+  <label for="facultyCoordinator">Faculty Coordinator</label>
+  <input
+          id="facultyCoordinator"
+          type="text"
+          name="facultyCoordinator"
+          maxlength="100"
+          required>
+
+  <label for="maxMembers">Maximum Members</label>
+  <input
+          id="maxMembers"
+          type="number"
+          name="maxMembers"
+          min="1"
+          required>
+
+  <label for="description">Description</label>
+  <textarea
+          id="description"
+          name="description"
+          maxlength="300"
+          required></textarea>
+
+  <div class="buttons">
+    <button class="add-btn" type="submit">Add Club</button>
+    <a class="cancel-btn" th:href="@{/clubs}">Cancel</a>
+  </div>
+
+</form>
+
+</body>
+</html>

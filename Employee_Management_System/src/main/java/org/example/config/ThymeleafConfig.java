@@ -20,6 +20,7 @@ import java.util.Map;
 public class ThymeleafConfig implements ServletContextListener {
     private static TemplateEngine templateEngine;
     private static JakartaServletWebApplication application;
+
     @Override
     public void contextInitialized(ServletContextEvent sce) {
         application = JakartaServletWebApplication.buildApplication(sce.getServletContext());
@@ -42,11 +43,11 @@ public class ThymeleafConfig implements ServletContextListener {
 
     public static void render(HttpServletRequest req,
                               HttpServletResponse resp,
-                              Map<String,Object> variables,
+                              Map<String, Object> variables,
                               String templateName)
-    throws IOException {
-        IWebExchange exchange = application.buildExchange(req,resp);
-        WebContext context = new WebContext(exchange,resp.getLocale());
+            throws IOException {
+        IWebExchange exchange = application.buildExchange(req, resp);
+        WebContext context = new WebContext(exchange, resp.getLocale());
         context.setVariables(variables);
         templateEngine.process(templateName, context, resp.getWriter());
     }

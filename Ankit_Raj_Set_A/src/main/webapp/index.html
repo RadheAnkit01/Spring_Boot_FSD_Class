@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        .navbar {
+            background: #2641ea;
+            color: white;
+            padding: 18px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .navbar h2 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .welcome {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+            margin-bottom: 25px;
+        }
+
+        .welcome h1 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        .welcome p {
+            color: #666;
+            margin-bottom: 0;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #2641ea;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #2641ea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .card a:hover {
+            background: #1d32bd;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .navbar {
+                padding: 18px;
+            }
+
+            .navbar nav {
+                display: flex;
+                gap: 15px;
+                flex-wrap: wrap;
+            }
+
+            .navbar a {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="navbar">
+    <h2>Student Portal</h2>
+
+    <nav>
+        <a href="dashboard">Dashboard</a>
+        <a href="students">Students</a>
+        <a href="club">Clubs</a>
+        <a href="logout">Logout</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="welcome">
+        <h1>Welcome to Student Dashboard</h1>
+        <p>Manage your student information and explore available clubs.</p>
+    </section>
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>Student Management</h3>
+            <p>View and manage student records and information.</p>
+            <a href="students">View Students</a>
+        </div>
+
+        <div class="card">
+            <h3>Club Management</h3>
+            <p>Explore available clubs and their details.</p>
+            <a href="club">Explore Clubs</a>
+        </div>
+
+<!--        <div class="card">-->
+<!--            <h3>My Profile</h3>-->
+<!--            <p>Access your student account and personal information.</p>-->
+<!--            <a href="students">View Profile</a>-->
+<!--        </div>-->
+
+    </section>
+
+</main>
+
+<footer>
+    &copy; 2026 Student Portal. All rights reserved.
+</footer>
+
+</body>
+</html>

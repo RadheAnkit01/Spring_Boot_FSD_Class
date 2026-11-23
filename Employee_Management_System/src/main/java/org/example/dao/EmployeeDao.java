@@ -10,10 +10,8 @@ import java.util.List;
 
 public class EmployeeDao {
     public List<Employee> findAll(){
-        try (Session sesion = HibernateUtil.getSessionFactory().openSession()){
-
-            return sesion.createQuery("from Employee order by id", Employee.class).list();
-
+        try (Session session = HibernateUtil.getSessionFactory().openSession()){
+            return session.createQuery("from Employee order by id", Employee.class).list();
         } catch (RuntimeException e) {
             throw new RuntimeException(e);
         }

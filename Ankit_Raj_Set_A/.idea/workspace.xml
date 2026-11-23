@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4c2b1e8-eb9f-49f9-9b02-b756b577a0b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/ThymeleafConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/ClubDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Club.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/club/ClubAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/club/ClubDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/club/ClubList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/club/ClubModify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/club/ClubSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/club/ClubUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/student/StudentAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/student/StudentDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/student/StudentListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/student/StudentModify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/student/StudentSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/student/StudentUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utility/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/club-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/club-update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/club.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/student-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/student-update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/students.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/config/ThymeleafConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/dao/DepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/servlet/AddDepartmentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/servlet/DepartmentSaveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/servlet/DepartmentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/utility/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/webapp/WEB-INF/templates/add-department.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/webapp/WEB-INF/templates/department.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Employee_Management_System.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Employee_Management_System.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Employee_Management_System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Employee_Management_System/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Employee_Management_System/src/main/java/org/example/config/ThymeleafConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Employee_Management_System/src/main/java/org/example/config/ThymeleafConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Employee_Management_System/src/main/java/org/example/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Employee_Management_System/src/main/java/org/example/dao/EmployeeDao.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000056630080056" />
+      <entry key="MS500" value="1.0892502487303166" />
+      <entry key="S2" value="1.5465782663207592" />
+      <entry key="S5" value="1.785348373893771" />
+      <entry key="S10" value="1.8877915470393072" />
+      <entry key="S30" value="2.077395832275559" />
+      <entry key="S60" value="2.331547454023053" />
+      <entry key="M2" value="2.721053885605448" />
+      <entry key="M5" value="4.100457187654792" />
+      <entry key="M10" value="7.304129518114906" />
+      <entry key="M15" value="11.784119850189695" />
+      <entry key="M30" value="32.53825224028773" />
+      <entry key="H1" value="74.123159317724" />
+      <entry key="H2" value="120.70782207633943" />
+      <entry key="H4" value="156.55424150744383" />
+      <entry key="D1" value="195.86956357488012" />
+      <entry key="W1" value="203.66702144433884" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.2744427515960912E-280" />
+      <entry key="MS500" value="1.0496972666274054E-56" />
+      <entry key="S2" value="1.0121992625895107E-14" />
+      <entry key="S5" value="2.524099127070878E-6" />
+      <entry key="S10" value="0.001588741365740496" />
+      <entry key="S30" value="0.11672138731151378" />
+      <entry key="S60" value="0.34756460911831827" />
+      <entry key="M2" value="0.6621105818969383" />
+      <entry key="M5" value="1.4007587319466996" />
+      <entry key="M10" value="4.712465824543431" />
+      <entry key="M15" value="10.825942303728166" />
+      <entry key="M30" value="33.692395337998846" />
+      <entry key="H1" value="68.95565153968144" />
+      <entry key="H2" value="103.28788918245871" />
+      <entry key="H4" value="128.0022211682949" />
+      <entry key="D1" value="154.06631735892478" />
+      <entry key="W1" value="159.13618176378327" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.02628126552066878" />
+      <entry key="MS500" value="0.5628493746626134" />
+      <entry key="S2" value="1.365274130311283" />
+      <entry key="S5" value="1.70649382360306" />
+      <entry key="S10" value="1.8486222140087036" />
+      <entry key="S30" value="2.1772351594677963" />
+      <entry key="S60" value="2.6673444739671535" />
+      <entry key="M2" value="3.3732531628533824" />
+      <entry key="M5" value="5.491582987862314" />
+      <entry key="M10" value="12.005776790665918" />
+      <entry key="M15" value="22.596896870944903" />
+      <entry key="M30" value="66.21254607379922" />
+      <entry key="H1" value="143.05997109286523" />
+      <entry key="H2" value="223.98118264403772" />
+      <entry key="H4" value="284.54728768330466" />
+      <entry key="D1" value="349.934007591108" />
+      <entry key="W1" value="362.8029259013895" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LM0zDU3Lz2ZYDEmakYseyX3Kcl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Tomcat: Ankit_Raj_Set_A.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat: Ankit_Raj_Set_A" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="" />
+      <option name="contextPath" value="/Ankit_Raj_Set_A" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.59" />
+          <option name="path" value="$PROJECT_DIR$/../../Other Dependencies/apache-tomcat-10.1.59" />
+          <option name="version" value="10.1.59.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="Ankit_Raj_Set_A" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4c2b1e8-eb9f-49f9-9b02-b756b577a0b5" name="Changes" comment="" />
+      <created>1793248892230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793248892230</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -5,10 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7e25f13-77bc-4095-a088-188f3d90e398" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/EmployeeUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/update-employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/java/org/example/config/ThymeleafConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/java/org/example/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/java/org/example/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/java/org/example/servlet/student/StudentAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/java/org/example/servlet/student/StudentDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/java/org/example/servlet/student/StudentListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/java/org/example/servlet/student/StudentModify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/java/org/example/servlet/student/StudentSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/java/org/example/servlet/student/StudentUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/java/org/example/utility/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/webapp/WEB-INF/templates/student-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/webapp/WEB-INF/templates/student-update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/webapp/WEB-INF/templates/students.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ankit_Raj_Set_A/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/config/ThymeleafConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/dao/DepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/servlet/AddDepartmentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/servlet/DepartmentSaveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/servlet/DepartmentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/java/org/example/utility/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/webapp/WEB-INF/templates/add-department.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/webapp/WEB-INF/templates/department.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course_Enrollment_Management_System/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Employee_Management_System.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Employee_Management_System.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/servlet/EmployeeFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/servlet/EmployeeFormServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/ThymeleafConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/ThymeleafConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/EmployeeDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +73,65 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0000000068182544" />
+      <entry key="M5" value="1.000820510224097" />
+      <entry key="M10" value="1.0405094595939945" />
+      <entry key="M15" value="1.148609820683183" />
+      <entry key="M30" value="1.5451784645604798" />
+      <entry key="H1" value="2.0442015384327563" />
+      <entry key="H2" value="2.445130803889969" />
+      <entry key="H4" value="2.700076938007964" />
+      <entry key="D1" value="2.946568803586363" />
+      <entry key="W1" value="2.9922781037349937" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.1468783559741344E-4" />
+      <entry key="MS500" value="0.16289339367041178" />
+      <entry key="S2" value="0.6352956298074012" />
+      <entry key="S5" value="0.8340466592289897" />
+      <entry key="S10" value="0.9132615502850154" />
+      <entry key="S30" value="0.9702084613379459" />
+      <entry key="S60" value="0.9849916047042969" />
+      <entry key="M2" value="0.9924674393652514" />
+      <entry key="M5" value="0.9977997234574593" />
+      <entry key="M10" value="1.0389755448990863" />
+      <entry key="M15" value="1.1475462867740445" />
+      <entry key="M30" value="1.5445719240211098" />
+      <entry key="H1" value="2.0438512507858517" />
+      <entry key="H2" value="2.444936773141258" />
+      <entry key="H4" value="2.699973917501893" />
+      <entry key="D1" value="2.9465506658111447" />
+      <entry key="W1" value="2.9922754869884103" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -65,7 +165,8 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RunManager">
@@ -113,5 +214,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
