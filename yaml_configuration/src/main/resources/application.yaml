@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: yaml_configuration
+
+user:
+  name: Ankit
+  city: Delhi
