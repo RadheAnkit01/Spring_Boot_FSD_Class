@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: application_and_command_runner
+user:
+  id: 21
+  namee: Hasan
